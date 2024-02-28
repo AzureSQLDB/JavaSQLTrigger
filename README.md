@@ -24,3 +24,5 @@ to see the connect string
 ```BASH
 sqlcmd config connection-strings
 ```
+
+Once you have the ADO.NET connect string, replace the CONNECT_STRING placeholder in the **local.settings.json** file
