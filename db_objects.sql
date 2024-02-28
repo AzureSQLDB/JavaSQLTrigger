@@ -12,3 +12,9 @@ SET CHANGE_TRACKING = ON
 
 ALTER TABLE [dbo].[ToDo]
 ENABLE CHANGE_TRACKING;
+
+
+
+insert into dbo.ToDo (id,title, [order],completed, url) values (NEWID(),'test',1,0,'xxxx')
+
+update dbo.ToDo set url = 'ssss' where id = 'XXXXXX'
