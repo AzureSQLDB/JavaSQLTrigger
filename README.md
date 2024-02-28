@@ -10,3 +10,17 @@ sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubunt
 sudo apt-get update
 sudo apt-get install sqlcmd
 ```
+
+then, run the following commands:
+
+to create the database:
+
+```BASH
+sqlcmd create mssql -u devDB --accept-eula
+```
+
+to see the connect string
+
+```BASH
+sqlcmd config connection-strings
+```
