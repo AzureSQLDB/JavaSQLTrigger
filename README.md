@@ -1,4 +1,4 @@
-# JDConf2024SQLTrigger
+# Java SQL Trigger for Azure SQL Bindings
 
 
 
