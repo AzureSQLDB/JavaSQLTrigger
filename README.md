@@ -10,6 +10,7 @@ This sample contains an Azure SQL Bindings Trigger for Azure Functions. You can 
 4. Press F5 to run the local function
 5. Insert a row into the database table with the T-SQL statements in the db_objects.sql file
 
+![Animated image of this sample being done - creating a SQL Binding Trigger using Java and the Azure Functions Extension](../media/javaTrigger1.gif)
  
 ### How to install go-sqlcmd for local database development
 
